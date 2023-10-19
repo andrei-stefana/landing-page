@@ -1,0 +1,173 @@
+@font-face {
+    font-family: 'Roboto-Regular'; /*a name to be used later*/
+    src: url('/fonts/Roboto/Roboto-Regular.ttf'); /*URL to font*/
+}
+
+
+@font-face {
+    font-family: 'Roboto-Bold'; /*a name to be used later*/
+    src: url('/fonts/Roboto/Roboto-Bold.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'Roboto-LightItalic'; /*a name to be used later*/
+    src: url('/fonts/Roboto/Roboto-LightItalic.ttf'); /*URL to font*/
+}
+
+* {
+    padding: 0;
+    margin: 0;
+  }
+
+body {
+    font-family: "Roboto-Regular";
+    background-color: #e3e3e3;
+}
+
+header {
+    background-color: #3A5A40;
+}
+
+footer {
+    height: 58px;
+    background-color: #3A5A40;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.nav {
+    padding: 20px 20px 20px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title{
+    padding: 20px 312px 20px 307px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+
+.motto {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:start;
+}
+
+.button {
+    background-color: #a3b18a;
+    border: none;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 8px;
+    margin: 10px 0 0 0;
+    cursor: pointer;
+}
+
+.destination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.destination_group {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.destination_img {
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.roboto-lightit {
+    background-color: #a3b18a;
+    color: white;
+    font-family: "Roboto-LightItalic";
+    font-size: 20px;
+    padding: 70px 100px 10px 100px;
+    display: flex;
+    justify-content: center;
+}
+
+#signature {
+    background-color: #a3b18a;
+    color: white;
+    padding: 0 200px 70px 100px;
+    display: flex;
+    justify-content: end;
+}
+
+.call {
+    background-color: #588157;
+    margin: 40px 300px 40px 300px;
+    padding: 60px 60px 60px 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.call_second {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.button_call {
+    background-color: #a3b18a;
+    color: white;
+    padding: 5px 20px;
+    margin: 20px 8px;
+    border-radius: 8px;
+    border: solid white;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+
+}
+
+h1, h2, h3, #signature {
+    font-family: "Roboto-Bold";
+}
+
+h1, #motto {
+    margin: 0 0 5px 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+h3 {
+    padding: 0 0 3px 0;
+}
