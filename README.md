@@ -10,7 +10,7 @@ The landing page is created based on the design provided from "The Odin Project"
 
 ## Link To Preview
 
-https://andrestef.github.io/landing-page/
+https://an3ist.github.io/landing-page/
 
 ## Credits For Images
 
@@ -42,7 +42,7 @@ Die Landing-Page basiert auf dem Design, das von "The Odin Project" bereitgestel
 
 ## Vorschau-Link
 
-https://andrestef.github.io/landing-page/
+https://an3ist.github.io/landing-page/
 
 ## Bildnachweise
 
